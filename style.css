@@ -1,0 +1,82 @@
+/* Add a background color to the main section */
+main {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add a color to the headings */
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Add a color to the links */
+  a {
+    color: #0077cc;
+  }
+  
+  /* Add a color to the icons */
+  i {
+    color: #0077cc;
+  }
+  
+  /* Add a hover effect to the links */
+  a:hover {
+    color: #005580;
+  }
+  
+  /* Add a hover effect to the icons */
+  i:hover {
+    color: #005580;
+  }
+  
+  /* Add a border to the images */
+  img {
+    border: 5px solid #fff;
+  }
+  
+  /* Add a shadow to the images */
+  img:hover {
+    box-shadow: 0px 0px 10px #ccc;
+  }
+
+  /* about us */
+
+.department {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  .department h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .department p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .department ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .department li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .department li:before {
+    content: "•";
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  
